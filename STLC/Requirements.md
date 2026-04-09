@@ -2,7 +2,7 @@
 
 ---
 
- ##The Software
+ The Software
 
 Webshop platform, with the following existing functionalities:
 
@@ -15,7 +15,7 @@ Webshop platform, with the following existing functionalities:
 
 ---
 
- ##New Features
+ New Features
 
 ---
 
