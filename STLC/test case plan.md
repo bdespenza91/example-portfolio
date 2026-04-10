@@ -86,6 +86,9 @@ The primary objective of the product is to enhance the existing webshop by intro
 - Integration with checkout flow
 - Regression testing of core webshop flows
 
+#### Out of Scope:
+- Backend database operations not affecting the user interface
+- Third-party ad services integration (unless directly related to ad removal for subscribed users)
 
 ---
 
