@@ -7,7 +7,7 @@
 ### Objective
 
 **What is the objective?**  
-To validate the correct implementation and behavior of newly introduced features (Product Rating System, Age Verification for Alcohol, and Shipping Cost Logic) while ensuring no regression in existing webshop functionalities.
+The primary objective of the product is to enhance the existing webshop by introducing new features and ensuring the smooth functioning of existing functionalities..
 
 ---
 
