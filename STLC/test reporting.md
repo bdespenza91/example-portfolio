@@ -61,7 +61,7 @@ As a user, I should verify my age before accessing alcohol products.
 
 | Step# | Action                       | Expected Outcome               | Actual Outcome | OK/NOK | URL | Link to Issue |
 | ----- | ---------------------------- | ------------------------------ | -------------- | ------ | --- | ------------- |
-| 1     | Navigate to alcohol category | Age verification modal appears | No modal shown | NOK    |     |               |
+| 1     | Navigate to alcohol category | Age verification modal appears | No modal shown | NOK    |     | [#10](https://github.com/bdespenza91/example-portfolio/issues/10)             |
 
 Scenario 7: Valid Age Access (18+)
 
