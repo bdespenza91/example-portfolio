@@ -70,7 +70,7 @@ As a user 18+, I should access alcohol products.
 
 | Step# | Action                         | Expected Outcome | Actual Outcome | OK/NOK | URL | Link to Issue |
 | ----- | ------------------------------ | ---------------- | -------------- | ------ | --- | ------------- |
-| 1     | Enter DOB = (Today - 17 years) | Access denied    | Access granted | NOK    |     | 🔗 Bug #2      |
+| 1     | Enter DOB = (Today - 17 years) | Access denied    | Access granted | NOK    |     |      |
 
 Scenario 9: Invalid DOB Input
 
@@ -79,7 +79,7 @@ As a user, I should receive validation errors for invalid DOB.
 
 | Step# | Action                   | Expected Outcome    | Actual Outcome | OK/NOK | URL | Link to Issue |
 | ----- | ------------------------ | ------------------- | -------------- | ------ | --- | ------------- |
-| 1     | Enter DOB = "99/99/9999" | Error message shown | Accepted       | NOK    |     | 🔗 Bug #3     |
+| 1     | Enter DOB = "99/99/9999" | Error message shown | Accepted       | NOK    |     |     |
 
 Feature 3: Shipping Cost Changes
 
@@ -109,7 +109,7 @@ As a user, I want shipping cost to update dynamically.
 | Step# | Action               | Expected Outcome | Actual Outcome | OK/NOK | URL | Link to Issue |
 | ----- | -------------------- | ---------------- | -------------- | ------ | --- | ------------- |
 | 1     | Add item (€20)       | €5 shipping      | Correct        | OK     |     |               |
-| 2     | Add item (total €55) | Free shipping    | Still shows €5 | NOK    |     | 🔗 Bug #4     |
+| 2     | Add item (total €55) | Free shipping    | Still shows €5 | NOK    |     |     |
 
 Scenario 13: Discount Impact on Shipping
 
@@ -119,7 +119,7 @@ As a user, shipping should update after discounts.
 | Step# | Action               | Expected Outcome     | Actual Outcome      | OK/NOK | URL | Link to Issue |
 | ----- | -------------------- | -------------------- | ------------------- | ------ | --- | ------------- |
 | 1     | Cart = €55           | Free shipping        | OK                  | OK     |     |               |
-| 2     | Apply discount → €45 | Shipping fee applied | Still free shipping | NOK    |     | 🔗 Bug #5    |
+| 2     | Apply discount → €45 | Shipping fee applied | Still free shipping | NOK    |     |    |
 
 Scenario 14: Empty Cart Behavior
 
