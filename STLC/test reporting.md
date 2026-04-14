@@ -50,7 +50,7 @@ As a user, I should be able to submit a rating without feedback if optional.
 
 | Step# | Action                         | Expected Outcome | Actual Outcome   | OK/NOK | URL | Link to Issue |
 | ----- | ------------------------------ | ---------------- | ---------------- | ------ | --- | ------------- |
-| 1     | Submit rating without feedback | Rating submitted | Unsubmitted      | NOK    |     |               |
+| 1     | Submit rating without feedback | Rating submitted | Unsubmitted      | NOK    |     |   [#4](https://github.com/bdespenza91/example-portfolio/issues/4)            |
 
 Feature 2: Age Verification for Alcohol
 
