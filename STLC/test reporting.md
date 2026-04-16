@@ -95,11 +95,11 @@ As a user, I want free shipping when my cart reaches €20.
 Scenario 11: Below Threshold (€20)
 
 User Story:
-As a user, I should pay shipping below €50.
+As a user, I should pay shipping below €20.
 
 | Step# | Action                    | Expected Outcome        | Actual Outcome      | OK/NOK | URL | Link to Issue |
 | ----- | ------------------------- | ----------------------- | ------------------- | ------ | --- | ------------- |
-| 1     | Add items totaling €49.99 | €5 shipping fee applied | Correct fee applied | OK     |     |               |
+| 1     | Add items totaling €19.99 | €5 shipping fee applied | inCorrect fee applied | OK     |     |   [#12](https://github.com/bdespenza91/example-portfolio/issues/12)            |
 
 Scenario 12: Dynamic Shipping Updates
 
