@@ -83,7 +83,7 @@ As a user, I should receive validation errors for invalid DOB.
 
 Feature 3: Shipping Cost Changes
 
-Scenario 10: Free Shipping Threshold (€50)
+Scenario 10: Free Shipping Threshold (€20)
 
 User Story:
 As a user, I want free shipping when my cart reaches €20.
