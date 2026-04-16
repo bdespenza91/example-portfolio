@@ -70,7 +70,7 @@ As a user 18+, I should access alcohol products.
 
 | Step# | Action                         | Expected Outcome | Actual Outcome | OK/NOK | URL | Link to Issue |
 | ----- | ------------------------------ | ---------------- | -------------- | ------ | --- | ------------- |
-| 1     | Enter DOB = (Today - 17 years) | Access denied    | Access granted | NOK    |     |      |
+| 1     | Enter DOB = (Today - 17 years) | Access denied    | Access granted | OK     |     |      |
 
 Scenario 9: Invalid DOB Input
 
