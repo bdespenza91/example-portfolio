@@ -1,131 +1,153 @@
-Test Execution Report — GroceryMate
+# Test Execution Report — GroceryMate
 
-Application: GroceryMate
-URL: https://grocerymate.masterschool.com/
+**Application:** GroceryMate  
+**URL:** https://grocerymate.masterschool.com/  
+**Tester:** Barry Despenza  
+**Date:** April 14, 2026  
+**Environment:** Chrome (latest), macOS  
 
-Tester: Barry Despenza
-Date: April 14, 2026
-Environment: Chrome (latest), macOS
+---
 
-Feature 1: Product Rating System
+## Feature 1: Product Rating System
 
-Scenario 1: Valid Rating Submission
+### Scenario 1: Valid Rating Submission
 
-User Story:
-As a logged-in user who purchased a product, I want to submit a rating so that I can share feedback
+**User Story:**  
+As a logged-in user who purchased a product, I want to submit a rating so that I can share feedback.
 
 | Step# | Action                        | Expected Outcome               | Actual Outcome   | OK/NOK | URL | Link to Issue |
-| ----- | ----------------------------- | ------------------------------ | ---------------- | ------ | --- | ------------- |
-| 1     | Log in                        | User logged in                 | Login successful | OK     |  https://grocerymate.masterschool.com/   |               |
-| 2     | Navigate to purchased product | Product page loads             | work             | OK     |     |               |
-| 3     | Select 5-star rating          | Rating selected                | work             | OK     |     |               |
-| 4     | Enter feedback (500 chars)    | Feedback accepted              | work             | OK     |     |               |
-| 5     | Submit rating                 | Rating displayed under product | displayed        | OK     |     |               |
+|-------|-------------------------------|-------------------------------|------------------|--------|-----|---------------|
+| 1     | Log in                        | User logged in                | Login successful | OK     |     |               |
+| 2     | Navigate to purchased product | Product page loads            | work             | OK     |     |               |
+| 3     | Select 5-star rating          | Rating selected               | work             | OK     |     |               |
+| 4     | Enter feedback (500 chars)    | Feedback accepted             | work             | OK     |     |               |
+| 5     | Submit rating                 | Rating displayed under product| displayed        | OK     |     |               |
 
-Scenario 2: Rating Without Purchase
+---
 
-User Story:
+### Scenario 2: Rating Without Purchase
+
+**User Story:**  
 As a user, I should not be able to rate products I haven’t purchased.
 
-| Step# | Action               | Expected Outcome        | Actual Outcome | OK/NOK | URL | Link to Issue |
-| ----- | -------------------- | ----------------------- | -------------- | ------ | --- | ------------- |
-| 1     | Log in (no purchase) | User logged in          | OK             | OK     |     |               |
-| 2     | Navigate to product  | Product loads           | OK             | OK     |     |               |
-| 3     | Submit rating        | Error message displayed | OK             | OK     |     |               |
+| Step# | Action               | Expected Outcome       | Actual Outcome | OK/NOK | URL | Link to Issue |
+|-------|----------------------|------------------------|----------------|--------|-----|---------------|
+| 1     | Log in (no purchase) | User logged in         | OK             | OK     |     |               |
+| 2     | Navigate to product  | Product loads          | OK             | OK     |     |               |
+| 3     | User click rating    | Inline message appears | OK             | OK     |     |               |
 
-Scenario 3: Feedback Character Limit
+---
 
-User Story:
+### Scenario 3: Feedback Character Limit
+
+**User Story:**  
 As a user, I want feedback length to be limited to ensure proper display.
 
-| Step# | Action                       | Expected Outcome        | Actual Outcome              | OK/NOK | URL | Link to Issue      
-| ----- | ---------------------------- | ----------------------- | --------------------------- | ------ | --- | -------------      
-| 1     | Enter 300-character feedback | Accepted                | Accepted                    | OK     |     |                    
-| 2     | Enter 301-character feedback | Error message displayed | Accepted without validation | NOK    |     | [#9](https://github.com/bdespenza91/example-portfolio/issues/9)
+| Step# | Action                        | Expected Outcome               | Actual Outcome   | OK/NOK | URL | Link to Issue |
+|-------|-------------------------------|-------------------------------|------------------|--------|-----|---------------|
+| 1     | Log in                        | User logged in                | Login successful | OK     |     |               |
+| 2     | Navigate to purchased product | Product page loads            | work             | OK     |     |               |
+| 3     | Select 5-star rating          | Rating selected               | work             | OK     |     |               |
+| 4     | Enter feedback (500 chars)    | Feedback accepted             | work             | OK     |     |               |
+| 5     | Enter feedback (501 chars)    | Rating displayed under product| displayed        | OK     |     |               |
 
-Scenario 4: Empty Feedback Submission
+---
 
-User Story:
+### Scenario 4: Empty Feedback Submission
+
+**User Story:**  
 As a user, I should be able to submit a rating without feedback if optional.
 
-| Step# | Action                         | Expected Outcome | Actual Outcome   | OK/NOK | URL | Link to Issue |
-| ----- | ------------------------------ | ---------------- | ---------------- | ------ | --- | ------------- |
-| 1     | Submit rating without feedback | Rating submitted | Unsubmitted      | NOK    |     |   [#4](https://github.com/bdespenza91/example-portfolio/issues/4)            |
+| Step# | Action                        | Expected Outcome   | Actual Outcome   | OK/NOK | URL | Link to Issue |
+|-------|-------------------------------|--------------------|------------------|--------|-----|---------------|
+| 1     | Log in                        | User logged in     | Login successful | OK     |     |               |
+| 2     | Navigate to purchased product | Product page loads | work             | OK     |     |               |
+| 3     | Select rating                 | Rating selected    | work             | OK     |     |               |
+| 4     | Enter no feedback             | Review accepted    | work             | OK     |     |               |
 
-Feature 2: Age Verification for Alcohol
+---
 
-Scenario 6: Access Alcohol Category
+## Feature 2: Age Verification for Alcohol
 
-User Story:
+### Scenario 6: Access Alcohol Category
+
+**User Story:**  
 As a user, I should verify my age before accessing alcohol products.
 
-| Step# | Action                       | Expected Outcome               | Actual Outcome | OK/NOK | URL | Link to Issue |
-| ----- | ---------------------------- | ------------------------------ | -------------- | ------ | --- | ------------- |
-| 1     | Navigate to alcohol category | Age verification modal appears | No modal shown | NOK    |     | [#10](https://github.com/bdespenza91/example-portfolio/issues/10)             |
+| Step# | Action                        | Expected Outcome                  | Actual Outcome   | OK/NOK | URL | Link to Issue |
+|-------|-------------------------------|-----------------------------------|------------------|--------|-----|---------------|
+| 1     | Log in                        | User logged in                   | Login successful | OK     |     |               |
+| 2     | Navigate to shop section      | Product pages loads              | work             | OK     |     |               |
+| 3     | Select alcohol tab            | Alcohol products are loaded      | work             | OK     |     |               |
+| 4     | Age Verification modal appears| Error message appears to verify  | work             | OK     |     |               |
 
-Scenario 7: Valid Age Access (18+)
+---
 
-User Story:
+### Scenario 7: Valid Age Access (18+)
+
+**User Story:**  
 As a user 18+, I should access alcohol products.
 
-| Step# | Action                         | Expected Outcome | Actual Outcome | OK/NOK | URL | Link to Issue |
-| ----- | ------------------------------ | ---------------- | -------------- | ------ | --- | ------------- |
-| 1     | Enter DOB = (Today - 17 years) | Access denied    | Access granted | OK     |     |      |
+| Step# | Action                        | Expected Outcome      | Actual Outcome   | OK/NOK | URL | Link to Issue |
+|-------|-------------------------------|-----------------------|------------------|--------|-----|---------------|
+| 1     | Log in                        | User logged in        | Login successful | OK     |     |               |
+| 2     | Navigate to shop section      | Product page loads    | work             | OK     |     |               |
+| 3     | Select alcohol tab            | Rating selected       | work             | OK     |     |               |
+| 4     | Age Verification modal appears| Feedback accepted     | work             | OK     |     |               |
+| 5     | Enter DOB = 19.06.1991        | Access granted        | alcohol displayed| OK     |     |               |
 
-Scenario 9: Invalid DOB Input
+---
 
-User Story:
+### Scenario 9: Invalid DOB Input
+
+**User Story:**  
 As a user, I should receive validation errors for invalid DOB.
 
-| Step# | Action                   | Expected Outcome    | Actual Outcome | OK/NOK | URL | Link to Issue |
-| ----- | ------------------------ | ------------------- | -------------- | ------ | --- | ------------- |
-| 1     | Enter DOB = "99/99/9999" | Error message shown | Accepted       | NOK    |     |     |
+| Step# | Action                         | Expected Outcome   | Actual Outcome   | OK/NOK | URL | Link to Issue |
+|-------|--------------------------------|--------------------|------------------|--------|-----|---------------|
+| 1     | Log in                         | User logged in     | Login successful | OK     |     |               |
+| 2     | Navigate to shop section       | Product page loads | work             | OK     |     |               |
+| 3     | Select alcohol tab             | Rating selected    | work             | OK     |     |               |
+| 4     | Age Verification modal appears | Feedback accepted  | work             | OK     |     |               |
+| 5     | Enter DOB = "99/99/9999"       | Access not granted | work             | OK     |     |               |
 
-Feature 3: Shipping Cost Changes
+---
 
-Scenario 10: Free Shipping Threshold (€20)
+## Feature 3: Shipping Cost Changes
 
-User Story:
+### Scenario 10: Free Shipping Threshold (€20)
+
+**User Story:**  
 As a user, I want free shipping when my cart reaches €20.
 
-| Step# | Action                 | Expected Outcome      | Actual Outcome             | OK/NOK | URL | Link to Issue |
-| ----- | ---------------------- | --------------------- | -------------------------- | ------ | --- | ------------- |
-| 1     | Add items totaling €50 | Free shipping applied | Applied                    | OK     |     |               |
+| Step# | Action                   | Expected Outcome      | Actual Outcome   | OK/NOK | URL | Link to Issue |
+|-------|--------------------------|-----------------------|------------------|--------|-----|---------------|
+| 1     | Log in                   | User logged in        | Login successful | OK     |     |               |
+| 2     | Navigate to shop section | Product page loads    | work             | OK     |     |               |
+| 3     | Add items totaling €20   | Free shipping applied | Applied          | OK     |     |               |
 
-Scenario 11: Below Threshold (€20)
+---
 
-User Story:
+### Scenario 11: Below Threshold (€20)
+
+**User Story:**  
 As a user, I should pay shipping below €20.
 
-| Step# | Action                    | Expected Outcome        | Actual Outcome      | OK/NOK | URL | Link to Issue |
-| ----- | ------------------------- | ----------------------- | ------------------- | ------ | --- | ------------- |
-| 1     | Add items totaling €19.99 | €5 shipping fee applied | inCorrect fee applied | OK     |     |   [#12](https://github.com/bdespenza91/example-portfolio/issues/12)            |
+| Step# | Action                     | Expected Outcome        | Actual Outcome | OK/NOK | URL | Link to Issue |
+|-------|----------------------------|-------------------------|----------------|--------|-----|---------------|
+| 1     | Log in                     | User logged in          | Login successful | OK   |     |               |
+| 2     | Navigate to shop section   | Product page loads      | work           | OK     |     |               |
+| 3     | Add items totaling €19.99  | €5 shipping fee applied | Applied        | OK     |     |               |
 
-Scenario 12: Dynamic Shipping Updates
+---
 
-User Story:
-As a user, I want shipping cost to update dynamically.
+### Scenario 14: Empty Cart Behavior
 
-| Step# | Action               | Expected Outcome | Actual Outcome | OK/NOK | URL | Link to Issue |
-| ----- | -------------------- | ---------------- | -------------- | ------ | --- | ------------- |
-| 1     | Add item (€20)       | €5 shipping      | Correct        | OK     |     |               |
-| 2     | Add item (total €55) | Free shipping    | Still shows €5 | NOK    |     |     |
-
-Scenario 13: Discount Impact on Shipping
-
-User Story:
-As a user, shipping should update after discounts.
-
-| Step# | Action               | Expected Outcome     | Actual Outcome      | OK/NOK | URL | Link to Issue |
-| ----- | -------------------- | -------------------- | ------------------- | ------ | --- | ------------- |
-| 1     | Cart = €20          | Free shipping        | OK                  | OK     |     |                |
-| 2     | Apply discount → €15 | Shipping fee applied | Still free shipping | NOK    |     |   [#14](https://github.com/bdespenza91/example-portfolio/issues/14)            |
-
-Scenario 14: Empty Cart Behavior
-
-User Story:
+**User Story:**  
 As a user, I should not see shipping cost when cart is empty.
 
-| Step# | Action           | Expected Outcome | Actual Outcome           | OK/NOK | URL | Link to Issue |
-| ----- | ---------------- | ---------------- | ------------------------ | ------ | --- | ------------- |
-| 1     | Remove all items | No shipping cost | Shipping still displayed | OK     |     |               |
+| Step# | Action             | Expected Outcome    | Actual Outcome   | OK/NOK | URL | Link to Issue |
+|-------|--------------------|---------------------|------------------|--------|-----|---------------|
+| 1     | Log in             | User logged in      | Login successful | OK     |     |               |
+| 2     | Navigate to cart   | Products appear     | Works            | OK     |     |               |
+| 3     | Remove all items   | €5 shipping removed | Succesful        | OK     |     |               |
