@@ -19,7 +19,7 @@ As a logged-in user who purchased a product, I want to submit a rating so that I
 |-------|-------------------------------|-------------------------------|------------------|--------|-----|---------------|
 | 1     | Log in                        | User logged in                | Login successful | OK     |     |               |
 | 2     | Navigate to purchased product | Product page loads            | work             | OK     |     |               |
-| 3     | Select 5-star rating          | Rating selected               | work             | OK     |     |               |
+| 3     | Select star rating            | Rating selected               | work             | OK     |     |               |
 | 4     | Enter feedback (500 chars)    | Feedback accepted             | work             | OK     |     |               |
 | 5     | Submit rating                 | Rating displayed under product| displayed        | OK     |     |               |
 
