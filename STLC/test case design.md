@@ -26,27 +26,17 @@ Example software: grocerymate
         - **Input**: Logged-in user without purchase.
         - **Expected Outcome**: Error message displayed, rating not allowed.
 
-5. **Equivalence Partitioning**:
-    - **Test Case**: Verify rating submission for users who have purchased the product.
-        - **Input**: Logged-in user with purchase.
-        - **Expected Outcome**: Rating submission allowed.
-
-6. **Boundary Value Analysis**:
-    - **Test Case**: Verify feedback submission with exactly 300 characters.
-        - **Input**: Feedback = 300 characters.
-        - **Expected Outcome**: Feedback submitted successfully.
-
-7. **Boundary Value Analysis**:
+5. **Boundary Value Analysis**:
     - **Test Case**: Verify feedback submission exceeding 500 characters.
         - **Input**: Feedback = 501 characters.
         - **Expected Outcome**: Error message "Feedback cannot exceed 500 characters."
 
-8. **Error Guessing**:
+6 **Error Guessing**:
     - **Test Case**: Verify system behavior when feedback is not entered.
         - **Input**: Submit rating without feedback.
         - **Expected Outcome**: Rating submitted successfully (feedback optional).
 
-10. **Use Case Testing**:
+7. **Use Case Testing**:
     - **Test Case**: Verify average rating calculation is correct.
         - **Input**: Multiple ratings (e.g., 2, 4, 5 stars).
         - **Expected Outcome**: Correct average rating displayed.
