@@ -49,7 +49,7 @@ As a user, I want feedback length to be limited to ensure proper display.
 | 2     | Navigate to purchased product | Product page loads            | work             | OK     |     |               |
 | 3     | Select star rating            | Rating selected               | work             | OK     |     |               |
 | 4     | Enter feedback (500 chars)    | Feedback accepted             | work             | OK     |     |               |
-| 5     | Enter feedback (2 chars)      | Feedback not accepted         | Review saves     | NOK    |     |               |
+| 5     | Enter feedback (2 chars)      | Feedback not accepted         | Review saves     | NOK    |     |   [Feedback Length Validation Bug](https://github.com/bdespenza91/example-portfolio/issues/13)            |
 
 ---
 
