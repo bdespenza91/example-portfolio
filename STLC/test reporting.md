@@ -158,13 +158,17 @@ User can not successfully access alcohol products if they are underage.
 **User Story:**  
 As a user, I want free shipping when my cart reaches €20.
 
-| Step# | Action                   | Expected Outcome      | Actual Outcome   | OK/NOK | URL | Link to Issue |
-|-------|--------------------------|-----------------------|------------------|--------|-----|---------------|
-| 1     | Log in                   | User logged in        | Login successful | OK     | https://grocerymate.masterschool.com/    |               |
-| 2     | Navigate to shop section | Product page loads    | work             | OK     |     |               |
-| 3     | Add items totaling €20   | Free shipping applied | Applied          | OK     |     |               |
+| 1 | Go to the login page of GroceryMate | Login page appears | OK | https://grocerymate.masterschool.com/ | |
+| 2a | Enter username: Kendricklamar@gmail.com | Username accepted | OK | | |
+| 2b | Enter password: Kanyewest16!| Password accepted | OK | | |
+| 3 | Click Sign In | User is successfully logged in and redirected to homepage | OK | | |
+| 4 | Click Shop button | Navigated to store page | OK | /store | |
+| 5 |Click Pet care product tab | Redirected to pet product page | OK | https://grocerymate.masterschool.com/store# | |
+| 6 | Select Coshida Super Premium Dry Cat Food Assorted - add to cart | product is added in the cart| OK | | |
+| 6b | Select filter by price - 10 -20 euro | Navigated to product detail page page | OK | https://grocerymate.masterschool.com/store# | |
+| 6b | Select Igney raspberry vodka- add to cart | Product appears | OK | https://grocerymate.masterschool.com/store# | 
+| 6c | User navigates to Cart | Redirected to cart page with shipment at 0 | OK | https://grocerymate.masterschool.com/checkout | |
 
----
 
 ### Scenario 11: Below Threshold (€20)
 
