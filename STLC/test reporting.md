@@ -71,15 +71,20 @@ User is not able to successfully able to submit a product that have not purchase
 **User Story:**  
 As a user, I want feedback length to be limited to ensure proper display.
 
+### Test Case: Review Submission Character Limit & Display Issue
+
+| Step # | Action | Expected Outcome | Status | URL | Issue |
+|--------|--------|------------------|--------|-----|-------|
 | 1 | Go to the login page of GroceryMate | Login page appears | OK | https://grocerymate.masterschool.com/ | |
 | 2a | Enter username: Kendricklamar@gmail.com | Username accepted | OK | | |
-| 2b | Enter password: Kanyewest16!| Password accepted | OK | | |
-| 3 | Click Sign In | User is successfully logged in and redirected to homepage | OK | | |
-| 4 | Click Shop button | Navigated to store page | OK | /store | |
-| 5 |Click Baresa Soaghetti | Redirected to product page | OK | https://grocerymate.masterschool.com/product/66b3a57b3fd5048eacb47990 | |
-| 6 | Select 1 Star rating | 1 star is highlighted | OK | | |
-| 7 | Enter feedback comment with 500 characters. abc..... until you reach 499  |You cannot tell us more about this product.| OK | /store | |
-| 8 | Click Send button | Rating visible & message displayed correctly|: "You already reviewed this product" but the display does not show all of the message abc........  | NOK |  | |
+| 2b | Enter password: Kanyewest16! | Password accepted | OK | | |
+| 3 | Click **Sign In** | User is successfully logged in and redirected to homepage | OK | | |
+| 4 | Click **Shop** button | Navigated to store page | OK | /store | |
+| 5 | Click **Baresa Spaghetti** | Redirected to product page | OK | https://grocerymate.masterschool.com/product/66b3a57b3fd5048eacb47990 | |
+| 6 | Select **1-star rating** | 1 star is highlighted | OK | | |
+| 7 | Enter feedback comment with ~500 characters | Error message displayed: *"You cannot tell us more about this product."* | OK | | |
+| 8 | Click **Send** button | Rating visible & message displayed correctly: *"You already reviewed this product"* | NOK | | Message is truncated; full feedback text is not displayed |
+
 
 ##  Result
 User was not successfully able to  submit a product review past 499 characters to display proper display 
