@@ -50,14 +50,16 @@ User successfully submits a 1-star rating and receives confirmation message indi
 **User Story:**  
 As a user, I should not be able to rate products I haven’t purchased.
 
+### Test Case: Product Review Restriction (Unpurchased Item)
+
 | Step # | Action | Expected Outcome | Status | URL | Issue |
-|-------|--------|------------------|--------|-----|-------|
+|--------|--------|------------------|--------|-----|-------|
 | 1 | Go to the login page of GroceryMate | Login page appears | OK | https://grocerymate.masterschool.com/ | |
-| 2a | Enter username: Kendricklamar@gmail.com| Username accepted | OK | | |
-| 2b | Enter password: Kanyewest16!| Password accepted | OK | | |
-| 3 | Click Sign In | User is successfully logged in and redirected to homepage | OK | | |
-| 4 | Click Shop button | Navigated to store page | OK | /store | |
-| 5 | Select Baresa Spahgetti| You need to buy this product to tell us your opinion! | OK |https://grocerymate.masterschool.com/product/66b3a57b3fd5048eacb47a66 | |
+| 2a | Enter username: Kendricklamar@gmail.com | Username accepted | OK | | |
+| 2b | Enter password: Kanyewest16! | Password accepted | OK | | |
+| 3 | Click **Sign In** | User is successfully logged in and redirected to homepage | OK | | |
+| 4 | Click **Shop** button | Navigated to store page | OK | /store | |
+| 5 | Select **Baresa Spaghetti** | Message displayed: *"You need to buy this product to tell us your opinion!"* | OK | https://grocerymate.masterschool.com/product/66b3a57b3fd5048eacb47a66 | |
 
 ## ✅ Result
 User is not able to successfully able to submit a product that have not purchased.
