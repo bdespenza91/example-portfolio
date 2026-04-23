@@ -242,7 +242,7 @@ _As a user, I want the shipping cost to update dynamically when I add or remove 
 
 | Step# | Action | Expected Outcome | Actual Outcome | OK/NOK | URL | Link to Issue |
 |------|--------|----------------|----------------|--------|-----|---------------|
-| 1 | 1 | Go to the login page of GroceryMate | Login page appears | OK | https://grocerymate.masterschool.com/ | |
+| 1| Go to the login page of GroceryMate | Login page appears | OK | https://grocerymate.masterschool.com/ | |
 | 2a | Enter username: Kendricklamar@gmail.com | Username accepted | OK | | |
 | 2b | Enter password: Kanyewest16! | Password accepted | OK | | |
 | 3 | Click "Sign In" | User is successfully logged in and redirected to homepage | OK | | |
