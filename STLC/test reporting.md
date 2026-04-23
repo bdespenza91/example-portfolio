@@ -184,11 +184,25 @@ As a user, I want free shipping when my cart reaches €20.
 **User Story:**  
 As a user, I should pay shipping below €20.
 
-| Step# | Action                     | Expected Outcome        | Actual Outcome | OK/NOK | URL | Link to Issue |
-|-------|----------------------------|-------------------------|----------------|--------|-----|---------------|
-| 1     | Log in                     | User logged in          | Login successful | OK   | https://grocerymate.masterschool.com/    |               |
-| 2     | Navigate to shop section   | Product page loads      | work           | OK     |     |               |
-| 3     | Add items totaling €19.99  | €5 shipping fee applied | Applied        | OK     |     |               |
+ **User Story:**  
+_As a user, I want free shipping when my cart reaches €20._
+
+---
+
+### **Test Steps**
+
+| Step# | Action | Expected Outcome | OK/NOK | URL | Link to Issue |
+|------|--------|----------------|--------|-----|---------------|
+| 1 | Go to the login page of GroceryMate | Login page appears | OK | https://grocerymate.masterschool.com/ | |
+| 2a | Enter username: Kendricklamar@gmail.com | Username accepted | OK | | |
+| 2b | Enter password: Kanyewest16! | Password accepted | OK | | |
+| 3 | Click "Sign In" | User is successfully logged in and redirected to homepage | OK | | |
+| 4 | Click "Shop" button | Navigated to store page | OK | /store | |
+| 5 | Click Pet Care product tab | Redirected to pet product page | OK | https://grocerymate.masterschool.com/store# | |
+| 6a | Select "Coshida Super Premium Dry Cat Food Assorted" and add to cart | Product is added to cart | OK | | |
+| 6b | Apply filter: price €10–€20 | Products filtered successfully | OK | https://grocerymate.masterschool.com/store# | |
+| 6c | Select "Igney Raspberry Vodka" and add to cart | Product added to cart | OK | https://grocerymate.masterschool.com/store# | |
+| 7 | Navigate to Cart | Redirected to cart page with free shipping (€0) applied | OK | https://grocerymate.masterschool.com/checkout | |
 
 ---
 
