@@ -252,7 +252,7 @@ _As a user, I want the shipping cost to update dynamically when I add or remove 
 | 6b | Apply filter: price €10–€20 | Products filtered successfully | OK | https://grocerymate.masterschool.com/store# | |
 | 6c | Select twice the "Birchwood 2 Beef Ribeye Steaks" and add to cart | Product added to cart and shipping is 5 euro | OK | https://grocerymate.masterschool.com/store# | |
 | 6d | Select twice the "Deluxe Dry Aged Aberdeen Angus Ribeye Steak" and add to cart | Product added to cart | OK | https://grocerymate.masterschool.com/store# | | 
-| 7 |  Deselect one of the "Birchwood 2 Beef Ribeye Steaks" | Product is subtracted from the cart and shipping is still the same | NOK | https://grocerymate.masterschool.com/checkout
+| 7 |  Deselect one of the "Birchwood 2 Beef Ribeye Steaks" | Product is subtracted from the cart and shipping is still the same | NOK | https://grocerymate.masterschool.com/checkout | [#16 Comment](https://github.com/bdespenza91/example-portfolio/issues/16#issue-4341540988)
 
 ---
 
