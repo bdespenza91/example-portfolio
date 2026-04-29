@@ -1,38 +1,69 @@
+# Barry Despenza – Product, UX & QA Portfolio
+
+## Overview
+I’m a multidisciplinary product builder working at the intersection of **Product Design, UX, and QA Engineering**.
+
+My work focuses on building and testing **user-centered, data-driven digital experiences** across e-commerce, fintech, and AI-powered products.
+
+This portfolio highlights how I:
+- Design intuitive user experiences
+- Validate product quality through structured testing
+- Leverage AI tools to improve workflows and product outcomes
 
 ---
 
-## Test Strategy
+## What I Do
 
-### 1. Core Functionality
-- Validates correct word matching
-- Case-insensitive comparisons
-- Multiple occurrences
-- Ensures substrings are NOT counted
+### Product Design
+- End-to-end product design (discovery → delivery)
+- UX/UI for web and mobile applications
+- Design systems and scalable components
 
-### 2. Edge Cases
-- Empty inputs
-- Extra spaces
-- Leading/trailing spaces
-- Punctuation handling limitations
+### QA Engineering
+- Test strategy and planning
+- Test case design (BVA, equivalence partitioning, edge cases)
+- Bug reporting and validation
+- Automation with PyTest
 
-### 3. Negative Testing
-- Invalid input types (None, int, list)
-- Ensures proper exception handling (`TypeError`)
-
----
-
-## Known Limitation
-
-The function uses `.split()` for word separation.  
-This means punctuation (e.g. `"cat,dog"`) is not treated as a delimiter.
-
-Example:
-- `"cat,dog cat"` → counts only `1` match for `"cat"`
+### Creative & Sound Design
+- Sound design for immersive digital and physical experiences
+- Audio storytelling and brand-driven sound experiences
 
 ---
 
-## How to Run
+## Featured Project
 
-1. Install dependencies:
-```bash
-pip install pytest
+### PyTest Word Matching Test Suite
+A structured QA project testing a word-matching function using PyTest.
+
+**Highlights:**
+- Parameterized testing for scalability
+- Edge case and negative testing coverage
+- Clear test strategy and documentation
+- GitHub-ready project structure
+
+🔗 GitHub Repo:  
+https://github.com/bdespenza91/example-portfolio
+
+---
+
+## Tools & Technologies
+
+- Python, PyTest
+- Figma, Miro
+- Git & GitHub
+- AI tools (Claude, Gemini, ChatGPT)
+
+---
+
+## Approach
+
+I approach products from both a **design and quality perspective**, ensuring that:
+- Experiences are intuitive and accessible
+- Systems behave reliably under real-world conditions
+- Product decisions are informed by user behavior and data
+
+---
+
+## Note
+All projects in this repository are designed to demonstrate real-world product thinking, testing strategy, and execution quality.
