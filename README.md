@@ -1,7 +1,7 @@
-# Barry Despenza – Product, QA Portfolio
+# Barry Despenza – Product Machine learning, QA Portfolio
 
 ## Overview
-I’m a multidisciplinary product builder working at the intersection of **Product Design, UX, and QA Engineering**.
+I’m a multidisciplinary product builder working at the intersection of **Product Design, UX, Machine learning and QA Engineering**.
 
 My work focuses on building and testing **user-centered, data-driven digital experiences** across e-commerce, fintech, and AI-powered products.
 
