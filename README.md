@@ -1,4 +1,4 @@
-# Barry Despenza – Product Machine learning, QA Portfolio
+# Barry Despenza – AI Engineering, QA Portfolio
 
 ## Overview
 I’m a multidisciplinary product builder working at the intersection of **Product Design, UX, Machine learning and QA Engineering**.
