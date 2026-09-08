@@ -19,7 +19,7 @@ This portfolio highlights how I:
 - UX/UI for web and mobile applications
 - Design systems and scalable components
 
-### QA Engineering
+### QA and Design Engineering
 - Test strategy and planning
 - Test case design (BVA, equivalence partitioning, edge cases)
 - Bug reporting and validation
